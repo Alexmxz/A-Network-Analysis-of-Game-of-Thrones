@@ -1,6 +1,6 @@
 # A-Network-Analysis-of-Game-of-Thrones
 
-In this notebook, I will look at the character co-occurrence network and its evolution over the five books in R.R. Martin's hugely popular book series A Song of Ice and Fire. The importance of the characters changes over the books using different centrality measures. There are 5 CSV files that covers 5 books of that fiction. Each CSV file has 5 columns: Source, Target, Type, weight, and book#.
+In this notebook, I will look at the character co-occurrence network and its evolution over the five books in R.R. Martin's hugely popular book series A Song of Ice and Fire. The importance of the characters changes over the books using different centrality measures. There are 5 CSV files that covers 5 books of that fiction. Each CSV file has 5 columns: Source, Target, Type, weight, and book#.    
 ![alt text](https://github.com/Alexmxz/A-Network-Analysis-of-Game-of-Thrones/blob/main/GoT.png)   
 
 **Project Tasks**   
@@ -28,6 +28,6 @@ networkx provides different kind of graph objects, graph, digraph, multigraph, m
 
 ## Key takeaways
 1.Sorting dic to generate the list of tuples contains [(index,vlaue),...]   
-sorted_deg_cen_book1 = sorted(deg_cen_book1.items(), key=lambda x: x[1],reverse=True)[0:10]
+sorted_deg_cen_book1 = sorted(deg_cen_book1.items(), key=lambda x: x[1],reverse=True)[0:10]   
 2.Iterate through the DataFrame book1 row-wise using iterrows()   
 
